@@ -1,0 +1,83 @@
+HTML {
+	font-family: 'DM Mono', monospace;
+}
+h1{
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.lightsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:center
+}
+
+@media screen and (max-width: 500px) {
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 150px;
+    border: 1px solid black;
+    margin: 6px;
+}
+
+.item:hover {
+	-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.54);
+-moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.54);
+box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.54);
+}
+
+.on {
+	width: 70%;
+}
+
+.off {
+	background-color: red;
+}
+
+.button {
+  background-color: #fff; /* Green */
+  border: none;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 2px solid black;
+  transition: 0.2s;
+}
+
+.button:hover{
+	background-color: #000;
+	color: white;
+}

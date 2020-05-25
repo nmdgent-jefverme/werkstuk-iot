@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=DM+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+  <div class="container" id="container">
+    <h1>Dashboard Gustaaf Callierlaan</h1>
+        <div id="lightsContainer" class="lightsContainer"></div>
+        <ul>
+            <li><i class="fas fa-thermometer-three-quarters"></i>Temperatuur: <span id="temperature"></span></li>
+            <li><i class="fas fa-tint"></i>Vochtigheid: <span id="humidity"></span></li>
+            <li><i class="fas fa-tint"></i>Cpu temperatuur: <span id="cpuTemp"></span></li>
+        </ul>
+        <!--<form action='' method='POST'>
+          <input type='submit' name='button' class='button' value='Een knop'>
+        </form> -->
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
